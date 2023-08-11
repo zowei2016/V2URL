@@ -39,7 +39,7 @@ services:
     ports:
       - "8200:3000"
     environment:
-      BASE_URL: http://aichat-admin:8200
+      BASE_URL: http://aichat-admin:8080
 
   console:
     image: nanjiren01/aichat-console:latest
@@ -48,7 +48,7 @@ services:
     depends_on:
       - admin
     ports:
-      - "8280:80"
+      - "8080:80"
 
   db:
     image: nanjiren01/aichat-db:latest
