@@ -40,7 +40,7 @@ systemctl start docker
 
 # Clone the repository and install dependencies
 echo "curl -o docker-compose.yml..."
-curl -o docker-compose.yml https://raw.githubusercontent.com/Nanjiren01/AIChatWeb/main/docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/zowei2016/V2URL/blob/main/docker-compose.yml
 
 echo "Please input the super admin username. "
 echo "Only letters and numbers are supported, the length should between 6 and 20, and they cannot start with a number."
