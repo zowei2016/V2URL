@@ -37,7 +37,7 @@ services:
     depends_on:
       - admin
     ports:
-      - "8200:8200"
+      - "8200:3000"
     environment:
       BASE_URL: http://aichat-admin:8280
 
