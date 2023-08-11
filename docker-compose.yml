@@ -15,8 +15,8 @@ services:
       DB_PASSWORD: 123456
       REDIS_HOST: aichat-redis
       REDIS_PORT: 6379
-      SUPERADMIN_USERNAME: aichat
-      SUPERADMIN_PASSWORD: aichatadmin
+      SUPERADMIN_USERNAME: zowei2023
+      SUPERADMIN_PASSWORD: qq655990
       PASSWORD_SALT: any-is-ok
       DEFAULT_TOKENS: 3000
       DEFAULT_CHAT_COUNT: 20
@@ -39,7 +39,7 @@ services:
     ports:
       - "8200:3000"
     environment:
-      BASE_URL: http://aichat-admin:8280
+      BASE_URL: http://aichat-admin:8200
 
   console:
     image: nanjiren01/aichat-console:latest
