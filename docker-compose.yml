@@ -31,7 +31,7 @@ services:
       - "8082:8080"
 
   web:
-    image: nanjiren01/aichat-web:latest
+    image: nanjiren01/aichat-web:0.9
     container_name: aichat-web
     restart: always
     depends_on:
@@ -42,7 +42,7 @@ services:
       BASE_URL: http://aichat-admin:8080
 
   console:
-    image: nanjiren01/aichat-console:latest
+    image: nanjiren01/aichat-console:0.9
     container_name: aichat-console
     restart: always
     depends_on:
